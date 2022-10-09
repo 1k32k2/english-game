@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{27093934-FB2C-4B88-84B4-24131B014092}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp2</RootNamespace>
+    <AssemblyName>WindowsFormsApp2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="choose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="choose.Designer.cs">
+      <DependentUpon>choose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="animal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="animal.Designer.cs">
+      <DependentUpon>animal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fruit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fruit.Designer.cs">
+      <DependentUpon>fruit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="transport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transport.Designer.cs">
+      <DependentUpon>transport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="welcome.Designer.cs">
+      <DependentUpon>welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="animal.resx">
+      <DependentUpon>animal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="choose.resx">
+      <DependentUpon>choose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fruit.resx">
+      <DependentUpon>fruit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transport.resx">
+      <DependentUpon>transport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="welcome.resx">
+      <DependentUpon>welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ryan-wallace-azA1hLbjBBo-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-start-button-with-gradient-and-icon-png-image_2257339-removebg-previewm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HD-Alphabet-Wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-alex-andrews-2295744.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-belle-co-847393.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-chevanon-photography-325045.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-chevanon-photography-1108099.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-kelvin-valerio-617278.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-laura-the-explaura-3608263.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-pixabay-34231.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-pixabay-34770.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-pixabay-47547.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-pixabay-53581.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-pixabay-67552.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-pixabay-86405.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-pixabay-247502.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-alina-vilchenko-12716481.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-any-lane-5946068.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-any-lane-5946070.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-elina-nova-13774412.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-irina-iriser-880447.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-jane-doan-1132047.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-kaichieh-chan-708777.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-karolina-grabowska-4022138.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-laker-6157056.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-pierpaolo-riondato-2966150.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-yelena-odintsova-13211456.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-carlos-pernalete-tua-674783.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-donald-tong-65310.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-felix-haumann-3796556.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-jean-van-der-meulen-1549308.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-mike-b-977003.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-pixabay-163792.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-pixabay-221281.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-pixabay-276517.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-quintin-gellar-2199293.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-rodnae-productions-6519847.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-tom-fisk-2217513.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
