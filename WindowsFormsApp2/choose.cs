@@ -24,7 +24,7 @@ namespace WindowsFormsApp2
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            game chooseTopic = new game("fruit");
+            game chooseTopic = new game("game");
             chooseTopic.Show(this);
             this.Hide();
 
@@ -42,7 +42,6 @@ namespace WindowsFormsApp2
         {
             game chooseTopic = new game("transport");
             chooseTopic.Show(this);
-            this.Hide();
 
         }
 
