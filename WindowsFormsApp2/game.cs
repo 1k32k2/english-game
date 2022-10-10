@@ -67,7 +67,7 @@ namespace WindowsFormsApp2
             dt_Animal.Rows.Add(7, "lion");
             dt_Animal.Rows.Add(8, "panda");
             dt_Animal.Rows.Add(9, "penguin");
-            
+
             //transport
             dt_Transport.Columns.Add("ID", typeof(int));
             dt_Transport.Columns.Add("En", typeof(string));
@@ -237,6 +237,38 @@ namespace WindowsFormsApp2
             if (currID < dt.Rows.Count - 1)
             {
                 currID++;
+                ChangeImage(currID);
+            }
+        }
+
+        public string getVocab(Int32 ID)
+        {
+            return Convert.ToString(dt.Rows[ID][1]);
+        }
+
+
+        private void richTextBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //
+            label3.Text = getVocab(currID);
+            label4.Text = Convert.ToString(currID);
+            //
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                if (currID < dt.Rows.Count - 1)
+                {
+                    if (richTextBox1.Text.Trim() == getVocab(currID))
+                    {
+                        score += 3;
+                        num_right += 1;
+                    }
+                }
+
+                currID++;
+                label1.Text = Convert.ToString(score);
+                label2.Text = Convert.ToString(num_right);
+                richTextBox1.Clear();
+
                 ChangeImage(currID);
             }
         }
