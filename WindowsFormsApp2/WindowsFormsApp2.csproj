@@ -215,5 +215,14 @@
   <ItemGroup>
     <None Include="Resources\pexels-tom-fisk-2217513.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next-button1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

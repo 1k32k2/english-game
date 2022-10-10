@@ -66,15 +66,16 @@ namespace WindowsFormsApp2
             }
 
         }
+
         public string category;
         private void game_Load(object sender, EventArgs e)
         {
             if (this.category == "fruit")
-                pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.pexels_jane_doan_1132047; ;
+                pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.apple;
             else if (this.category == "animal")
-                pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.pexels_pixabay_53581;
+                pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.cat;
             else if (this.category == "transport")
-                pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.pexels_pixabay_163792;
+                pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.ambulance;
         }
 
         private void ChangeImage(Int32 currID)
@@ -156,7 +157,7 @@ namespace WindowsFormsApp2
                 }
             }
 
-            else if (this.category == "vehicle")
+            else if (this.category == "transport")
             {
                 switch (currID)
                 {
@@ -196,5 +197,13 @@ namespace WindowsFormsApp2
             }
         }
 
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            if (currID < dt.Rows.Count - 1)
+            {
+                currID++;
+                ChangeImage(currID);
+            }
+        }
     }
 }
