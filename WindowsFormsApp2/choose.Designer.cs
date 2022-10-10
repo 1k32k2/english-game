@@ -28,29 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.animalChoose = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.fruitChoose = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.transportChoose = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.animalChoose)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fruitChoose)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.transportChoose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // animalChoose
             // 
-            this.pictureBox1.Image = global::WindowsFormsApp2.Properties.Resources.pexels_pixabay_53581;
-            this.pictureBox1.Location = new System.Drawing.Point(43, 54);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(192, 122);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.animalChoose.Image = global::WindowsFormsApp2.Properties.Resources.pexels_pixabay_53581;
+            this.animalChoose.Location = new System.Drawing.Point(43, 54);
+            this.animalChoose.Name = "animalChoose";
+            this.animalChoose.Size = new System.Drawing.Size(192, 122);
+            this.animalChoose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.animalChoose.TabIndex = 0;
+            this.animalChoose.TabStop = false;
+            this.animalChoose.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label1
             // 
@@ -64,16 +64,16 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "ANIMAL";
             // 
-            // pictureBox2
+            // fruitChoose
             // 
-            this.pictureBox2.Image = global::WindowsFormsApp2.Properties.Resources.pexels_jane_doan_1132047;
-            this.pictureBox2.Location = new System.Drawing.Point(363, 54);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(192, 122);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.fruitChoose.Image = global::WindowsFormsApp2.Properties.Resources.pexels_jane_doan_1132047;
+            this.fruitChoose.Location = new System.Drawing.Point(363, 54);
+            this.fruitChoose.Name = "fruitChoose";
+            this.fruitChoose.Size = new System.Drawing.Size(192, 122);
+            this.fruitChoose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.fruitChoose.TabIndex = 2;
+            this.fruitChoose.TabStop = false;
+            this.fruitChoose.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // label2
             // 
@@ -87,16 +87,16 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "FRUIT";
             // 
-            // pictureBox3
+            // transportChoose
             // 
-            this.pictureBox3.Image = global::WindowsFormsApp2.Properties.Resources.pexels_quintin_gellar_2199293;
-            this.pictureBox3.Location = new System.Drawing.Point(207, 266);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(192, 122);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 4;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.transportChoose.Image = global::WindowsFormsApp2.Properties.Resources.truck;
+            this.transportChoose.Location = new System.Drawing.Point(207, 266);
+            this.transportChoose.Name = "transportChoose";
+            this.transportChoose.Size = new System.Drawing.Size(192, 122);
+            this.transportChoose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.transportChoose.TabIndex = 4;
+            this.transportChoose.TabStop = false;
+            this.transportChoose.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // label3
             // 
@@ -109,6 +109,7 @@
             this.label3.Size = new System.Drawing.Size(232, 42);
             this.label3.TabIndex = 5;
             this.label3.Text = "TRANSPORT";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // pictureBox4
             // 
@@ -132,16 +133,17 @@
             this.ClientSize = new System.Drawing.Size(620, 524);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.transportChoose);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.fruitChoose);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.animalChoose);
             this.Name = "choose";
             this.Text = "choose";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.Load += new System.EventHandler(this.choose_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.animalChoose)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fruitChoose)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.transportChoose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -150,11 +152,11 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox animalChoose;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox fruitChoose;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox transportChoose;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox4;
     }

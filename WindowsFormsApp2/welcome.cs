@@ -28,5 +28,10 @@ namespace WindowsFormsApp2
         {
             this.Close();
         }
+
+        private void welcome_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

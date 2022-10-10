@@ -52,23 +52,11 @@
     <Compile Include="choose.Designer.cs">
       <DependentUpon>choose.cs</DependentUpon>
     </Compile>
-    <Compile Include="animal.cs">
+    <Compile Include="game.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="animal.Designer.cs">
-      <DependentUpon>animal.cs</DependentUpon>
-    </Compile>
-    <Compile Include="fruit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fruit.Designer.cs">
-      <DependentUpon>fruit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="transport.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="transport.Designer.cs">
-      <DependentUpon>transport.cs</DependentUpon>
+    <Compile Include="game.Designer.cs">
+      <DependentUpon>game.cs</DependentUpon>
     </Compile>
     <Compile Include="welcome.cs">
       <SubType>Form</SubType>
@@ -78,17 +66,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="animal.resx">
-      <DependentUpon>animal.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="choose.resx">
       <DependentUpon>choose.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fruit.resx">
-      <DependentUpon>fruit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="transport.resx">
-      <DependentUpon>transport.cs</DependentUpon>
+    <EmbeddedResource Include="game.resx">
+      <DependentUpon>game.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="welcome.resx">
       <DependentUpon>welcome.cs</DependentUpon>

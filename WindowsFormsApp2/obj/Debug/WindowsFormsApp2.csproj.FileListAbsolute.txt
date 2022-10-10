@@ -10,6 +10,4 @@ D:\hk5\c#\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 D:\hk5\c#\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
 D:\hk5\c#\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.welcome.resources
 D:\hk5\c#\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.choose.resources
-D:\hk5\c#\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.animal.resources
-D:\hk5\c#\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.fruit.resources
-D:\hk5\c#\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.transport.resources
+D:\hk5\c#\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.game.resources
