@@ -15,7 +15,7 @@ namespace WindowsFormsApp2
         DataTable dt = new DataTable();
         DataTable dt_Fruit = new DataTable();
         DataTable dt_Animal = new DataTable();
-        DataTable dt_Vehicle = new DataTable();
+        DataTable dt_Transport = new DataTable();
 
         Int32 currID = 0;
         Int32 num_right = 0;
@@ -36,25 +36,56 @@ namespace WindowsFormsApp2
             this.category = category;
 
 
-            // ----> Datatable for fruit <-----
+            //fruit data
             dt_Fruit.Columns.Add("ID", typeof(int));
             dt_Fruit.Columns.Add("En", typeof(string));
 
 
             dt_Fruit.Rows.Add(0, "apple");
             dt_Fruit.Rows.Add(1, "banana");
-            dt_Fruit.Rows.Add(2, "cherry");
-            dt_Fruit.Rows.Add(3, "coconut");
-            dt_Fruit.Rows.Add(4, "grape");
-            dt_Fruit.Rows.Add(5, "lemon");
-            dt_Fruit.Rows.Add(6, "mango");
-            dt_Fruit.Rows.Add(7, "orange");
-            dt_Fruit.Rows.Add(8, "papaya");
-            dt_Fruit.Rows.Add(9, "pear");
+            dt_Fruit.Rows.Add(2, "blueberry");
+            dt_Fruit.Rows.Add(3, "grape");
+            dt_Fruit.Rows.Add(4, "kiwi");
+            dt_Fruit.Rows.Add(5, "orange");
+            dt_Fruit.Rows.Add(6, "papaya");
+            dt_Fruit.Rows.Add(7, "pineapple");
+            dt_Fruit.Rows.Add(8, "strawberry");
+            dt_Fruit.Rows.Add(9, "watermelon");
 
-            //
+            //animal
+            dt_Animal.Columns.Add("ID", typeof(int));
+            dt_Animal.Columns.Add("En", typeof(string));
 
-            if (category == "z")
+
+            dt_Animal.Rows.Add(0, "cat");
+            dt_Animal.Rows.Add(1, "cock");
+            dt_Animal.Rows.Add(2, "deer");
+            dt_Animal.Rows.Add(3, "dog");
+            dt_Animal.Rows.Add(4, "fish");
+            dt_Animal.Rows.Add(5, "fox");
+            dt_Animal.Rows.Add(6, "giraffe");
+            dt_Animal.Rows.Add(7, "lion");
+            dt_Animal.Rows.Add(8, "panda");
+            dt_Animal.Rows.Add(9, "penguin");
+            
+            //transport
+            dt_Transport.Columns.Add("ID", typeof(int));
+            dt_Transport.Columns.Add("En", typeof(string));
+
+
+            dt_Transport.Rows.Add(0, "ambulance");
+            dt_Transport.Rows.Add(1, "bicycle");
+            dt_Transport.Rows.Add(2, "car");
+            dt_Transport.Rows.Add(3, "helicopter");
+            dt_Transport.Rows.Add(4, "parachutte");
+            dt_Transport.Rows.Add(5, "plane");
+            dt_Transport.Rows.Add(6, "ship");
+            dt_Transport.Rows.Add(7, "train");
+            dt_Transport.Rows.Add(8, "truck");
+            dt_Transport.Rows.Add(9, "van");
+
+
+            if (category == "animal")
             {
                 dt = dt_Animal;
             }
@@ -64,9 +95,9 @@ namespace WindowsFormsApp2
                 dt = dt_Fruit;
             }
 
-            else if (category == "y")
+            else if (category == "transport")
             {
-                dt = dt_Vehicle;
+                dt = dt_Transport;
             }
 
         }
