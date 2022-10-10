@@ -78,34 +78,34 @@ namespace WindowsFormsApp2
                 switch (currID)
                 {
                     case 0:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.tao;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.apple;
                         break;
                     case 1:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.chuoi;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.banana;
                         break;
                     case 2:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.anhdao;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.blueberry;
                         break;
                     case 3:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.dua;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.grape;
                         break;
                     case 4:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.nho;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.kiwi;
                         break;
                     case 5:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.chanh;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.orange;
                         break;
                     case 6:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.xoai;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.papaya;
                         break;
                     case 7:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.cam;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.pineapple;
                         break;
                     case 8:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.dudu;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.strawberry;
                         break;
                     case 9:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.quale;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.watermelon;
                         break;
                     default:
                         break;
@@ -119,31 +119,31 @@ namespace WindowsFormsApp2
                         pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.cat;
                         break;
                     case 1:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.chicken;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.cock;
                         break;
                     case 2:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.cow;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.deer;
                         break;
                     case 3:
                         pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.dog;
                         break;
                     case 4:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.duck;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.fish;
                         break;
                     case 5:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.frog;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.fox;
                         break;
                     case 6:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.horse;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.giraffe;
                         break;
                     case 7:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.pig;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.lion;
                         break;
                     case 8:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.rabbit;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.panda;
                         break;
                     case 9:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.sheep;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.penguin;
                         break;
                     default:
                         break;
@@ -155,25 +155,25 @@ namespace WindowsFormsApp2
                 switch (currID)
                 {
                     case 0:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.bicycle;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.ambulance;
                         break;
                     case 1:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.bus;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.bicycle;
                         break;
                     case 2:
                         pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.car;
                         break;
                     case 3:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.motorcycle;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.helicopter;
                         break;
                     case 4:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.scooter;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.parachutte;
                         break;
                     case 5:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.subway;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.plane;
                         break;
                     case 6:
-                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.taxi;
+                        pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.ship;
                         break;
                     case 7:
                         pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.train;
