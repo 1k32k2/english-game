@@ -67,10 +67,16 @@ namespace WindowsFormsApp2
 
         }
         public string category;
-        private void fruit_Load(object sender, EventArgs e)
+        private void game_Load(object sender, EventArgs e)
         {
-
+            if (this.category == "fruit")
+                pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.pexels_jane_doan_1132047; ;
+            else if (this.category == "animal")
+                pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.pexels_pixabay_53581;
+            else if (this.category == "transport")
+                pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.pexels_pixabay_163792;
         }
+
         private void ChangeImage(Int32 currID)
         {
             if (this.category == "game")
