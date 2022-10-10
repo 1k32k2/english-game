@@ -27,47 +27,51 @@ namespace WindowsFormsApp2
             set { _score = value; }
         }
 
+        public string category;
+
         public game(string category)
         {
             InitializeComponent();
 
             this.category = category;
 
+
             // ----> Datatable for fruit <-----
-            dt.Columns.Add("ID", typeof(int));
-            dt.Columns.Add("En", typeof(string));
+            dt_Fruit.Columns.Add("ID", typeof(int));
+            dt_Fruit.Columns.Add("En", typeof(string));
 
 
-            dt.Rows.Add(0, "apple");
-            dt.Rows.Add(1, "banana");
-            dt.Rows.Add(2, "cherry");
-            dt.Rows.Add(3, "coconut");
-            dt.Rows.Add(4, "grape");
-            dt.Rows.Add(5, "lemon");
-            dt.Rows.Add(6, "mango");
-            dt.Rows.Add(7, "orange");
-            dt.Rows.Add(8, "papaya");
-            dt.Rows.Add(9, "pear");
+            dt_Fruit.Rows.Add(0, "apple");
+            dt_Fruit.Rows.Add(1, "banana");
+            dt_Fruit.Rows.Add(2, "cherry");
+            dt_Fruit.Rows.Add(3, "coconut");
+            dt_Fruit.Rows.Add(4, "grape");
+            dt_Fruit.Rows.Add(5, "lemon");
+            dt_Fruit.Rows.Add(6, "mango");
+            dt_Fruit.Rows.Add(7, "orange");
+            dt_Fruit.Rows.Add(8, "papaya");
+            dt_Fruit.Rows.Add(9, "pear");
 
             //
 
-            if (category == "animal")
+            if (category == "z")
             {
                 dt = dt_Animal;
             }
-            else if (category == "game")
+
+            else if (category == "fruit")
             {
                 dt = dt_Fruit;
             }
 
-            else if (category == "vehicle")
+            else if (category == "y")
             {
                 dt = dt_Vehicle;
             }
 
         }
 
-        public string category;
+        //public string category;
         private void game_Load(object sender, EventArgs e)
         {
             if (this.category == "fruit")
@@ -80,7 +84,7 @@ namespace WindowsFormsApp2
 
         private void ChangeImage(Int32 currID)
         {
-            if (this.category == "game")
+            if (this.category == "fruit")
             {
                 switch (currID)
                 {

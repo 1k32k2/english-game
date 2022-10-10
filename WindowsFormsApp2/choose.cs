@@ -26,7 +26,7 @@ namespace WindowsFormsApp2
         {
             game chooseTopic = new game("fruit");
             chooseTopic.Show(this);
-            this.Hide();
+         //   this.Hide();
 
         }
 
@@ -34,7 +34,7 @@ namespace WindowsFormsApp2
         {
             game chooseTopic = new game("animal");
             chooseTopic.Show(this);
-            this.Hide();
+           // this.Hide();
 
         }
 
