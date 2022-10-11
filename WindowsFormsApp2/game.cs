@@ -238,6 +238,7 @@ namespace WindowsFormsApp2
             {
                 currID++;
                 ChangeImage(currID);
+                richTextBox1.Clear();
                 //
                 label3.Text = Convert.ToString(dt.Rows[currID][1]);
                 label4.Text = Convert.ToString(currID);
@@ -276,11 +277,17 @@ namespace WindowsFormsApp2
                 }
                 else
                 {
-                    string result = "point: " + label1.Text;
+                    string result = "Bạn đã đạt được " + score.ToString() + "điểm!!! Số câu đúng là: " + num_right.ToString();
                     MessageBox.Show(result);
                 }
 
             }
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Application.Exit();
         }
     }
 }

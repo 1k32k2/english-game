@@ -138,6 +138,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.animalChoose);
             this.Name = "choose";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "choose";
             this.Load += new System.EventHandler(this.choose_Load);
             ((System.ComponentModel.ISupportInitialize)(this.animalChoose)).EndInit();

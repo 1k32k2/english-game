@@ -20,29 +20,28 @@ namespace WindowsFormsApp2
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             this.Close();
+            Application.Exit();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             game chooseTopic = new game("fruit");
             chooseTopic.Show(this);
-         //   this.Hide();
-
+            this.Hide();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             game chooseTopic = new game("animal");
             chooseTopic.Show(this);
-           // this.Hide();
-
+            this.Hide();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             game chooseTopic = new game("transport");
             chooseTopic.Show(this);
-
+            this.Hide();
         }
 
         private void choose_Load(object sender, EventArgs e)
