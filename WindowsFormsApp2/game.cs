@@ -239,10 +239,6 @@ namespace WindowsFormsApp2
                 currID++;
                 ChangeImage(currID);
                 richTextBox1.Clear();
-                //
-                label3.Text = Convert.ToString(dt.Rows[currID][1]);
-                label4.Text = Convert.ToString(currID);
-                //
             }
             else
             {
@@ -259,7 +255,7 @@ namespace WindowsFormsApp2
             //
             if (e.KeyChar == (char)Keys.Enter)
             {
-                if (currID < dt.Rows.Count - 1)
+                if (currID < dt.Rows.Count )
                 {
                     if (richTextBox1.Text.Trim() == Convert.ToString(dt.Rows[currID][1]))
                     {
