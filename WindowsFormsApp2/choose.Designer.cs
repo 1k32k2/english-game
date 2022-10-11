@@ -109,7 +109,6 @@
             this.label3.Size = new System.Drawing.Size(232, 42);
             this.label3.TabIndex = 5;
             this.label3.Text = "TRANSPORT";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // pictureBox4
             // 

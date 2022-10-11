@@ -238,38 +238,48 @@ namespace WindowsFormsApp2
             {
                 currID++;
                 ChangeImage(currID);
+                //
+                label3.Text = Convert.ToString(dt.Rows[currID][1]);
+                label4.Text = Convert.ToString(currID);
+                //
+            }
+            else
+            {
+                string result = "point: " + label1.Text;
+                MessageBox.Show(result);
             }
         }
-
-        public string getVocab(Int32 ID)
-        {
-            return Convert.ToString(dt.Rows[ID][1]);
-        }
-
 
         private void richTextBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             //
-            label3.Text = getVocab(currID);
-            label4.Text = Convert.ToString(currID);
+            //label3.Text = Convert.ToString(dt.Rows[currID][1]);
+            //label4.Text = Convert.ToString(currID);
             //
             if (e.KeyChar == (char)Keys.Enter)
             {
                 if (currID < dt.Rows.Count - 1)
                 {
-                    if (richTextBox1.Text.Trim() == getVocab(currID))
+                    if (richTextBox1.Text.Trim() == Convert.ToString(dt.Rows[currID][1]))
                     {
                         score += 3;
                         num_right += 1;
                     }
+
+
+                    currID++;
+                    label1.Text = Convert.ToString(score);
+                    label2.Text = Convert.ToString(num_right);
+                    richTextBox1.Clear();
+
+                    ChangeImage(currID);
+                }
+                else
+                {
+                    string result = "point: " + label1.Text;
+                    MessageBox.Show(result);
                 }
 
-                currID++;
-                label1.Text = Convert.ToString(score);
-                label2.Text = Convert.ToString(num_right);
-                richTextBox1.Clear();
-
-                ChangeImage(currID);
             }
         }
     }
