@@ -44,10 +44,10 @@
             // animalChoose
             // 
             this.animalChoose.Image = global::WindowsFormsApp2.Properties.Resources.pexels_pixabay_53581;
-            this.animalChoose.Location = new System.Drawing.Point(32, 44);
-            this.animalChoose.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.animalChoose.Location = new System.Drawing.Point(43, 54);
+            this.animalChoose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.animalChoose.Name = "animalChoose";
-            this.animalChoose.Size = new System.Drawing.Size(153, 99);
+            this.animalChoose.Size = new System.Drawing.Size(204, 122);
             this.animalChoose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.animalChoose.TabIndex = 0;
             this.animalChoose.TabStop = false;
@@ -59,20 +59,19 @@
             this.label1.BackColor = System.Drawing.Color.Gold;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label1.Location = new System.Drawing.Point(43, 145);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(57, 178);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(133, 34);
+            this.label1.Size = new System.Drawing.Size(161, 42);
             this.label1.TabIndex = 1;
             this.label1.Text = "ANIMAL";
             // 
             // fruitChoose
             // 
             this.fruitChoose.Image = global::WindowsFormsApp2.Properties.Resources.pexels_jane_doan_1132047;
-            this.fruitChoose.Location = new System.Drawing.Point(272, 44);
-            this.fruitChoose.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.fruitChoose.Location = new System.Drawing.Point(363, 54);
+            this.fruitChoose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.fruitChoose.Name = "fruitChoose";
-            this.fruitChoose.Size = new System.Drawing.Size(153, 99);
+            this.fruitChoose.Size = new System.Drawing.Size(204, 122);
             this.fruitChoose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fruitChoose.TabIndex = 2;
             this.fruitChoose.TabStop = false;
@@ -84,20 +83,19 @@
             this.label2.BackColor = System.Drawing.Color.Gold;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label2.Location = new System.Drawing.Point(297, 145);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(396, 178);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 34);
+            this.label2.Size = new System.Drawing.Size(123, 42);
             this.label2.TabIndex = 3;
             this.label2.Text = "FRUIT";
             // 
             // transportChoose
             // 
             this.transportChoose.Image = global::WindowsFormsApp2.Properties.Resources.truck;
-            this.transportChoose.Location = new System.Drawing.Point(150, 216);
-            this.transportChoose.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.transportChoose.Location = new System.Drawing.Point(200, 266);
+            this.transportChoose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.transportChoose.Name = "transportChoose";
-            this.transportChoose.Size = new System.Drawing.Size(153, 99);
+            this.transportChoose.Size = new System.Drawing.Size(204, 122);
             this.transportChoose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.transportChoose.TabIndex = 4;
             this.transportChoose.TabStop = false;
@@ -109,10 +107,9 @@
             this.label3.BackColor = System.Drawing.Color.Gold;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label3.Location = new System.Drawing.Point(129, 317);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(172, 390);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(190, 34);
+            this.label3.Size = new System.Drawing.Size(232, 42);
             this.label3.TabIndex = 5;
             this.label3.Text = "TRANSPORT";
             // 
@@ -121,10 +118,10 @@
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox4.Image = global::WindowsFormsApp2.Properties.Resources.Delete;
-            this.pictureBox4.Location = new System.Drawing.Point(424, 10);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox4.Location = new System.Drawing.Point(565, 12);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(32, 33);
+            this.pictureBox4.Size = new System.Drawing.Size(43, 41);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 6;
             this.pictureBox4.TabStop = false;
@@ -132,12 +129,12 @@
             // 
             // choose
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.HD_Alphabet_Wallpaper;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(465, 426);
+            this.ClientSize = new System.Drawing.Size(620, 524);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.transportChoose);
@@ -145,7 +142,8 @@
             this.Controls.Add(this.fruitChoose);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.animalChoose);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "choose";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "English Game";
