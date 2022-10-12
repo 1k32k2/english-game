@@ -52,6 +52,12 @@
     <Compile Include="choose.Designer.cs">
       <DependentUpon>choose.cs</DependentUpon>
     </Compile>
+    <Compile Include="data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="data.Designer.cs">
+      <DependentUpon>data.cs</DependentUpon>
+    </Compile>
     <Compile Include="game.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="choose.resx">
       <DependentUpon>choose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data.resx">
+      <DependentUpon>data.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="game.resx">
       <DependentUpon>game.cs</DependentUpon>
@@ -223,6 +232,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\next-button1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
